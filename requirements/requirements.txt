@@ -1,4 +1,4 @@
-Django>=1.11
+Django>=4.2.27
 django-bootstrap3>=8.2.2
 Pillow>=4.1.0
 djangorestframework>=3.6.2
@@ -6,7 +6,7 @@ ForgeryPy
 #openpyxl>=2.4.0
 celery>=4.0.2
 paramiko>=2.1.2
-ansible>=2.2.2.0
+ansible>=12.0.0
 django-simple-captcha>=0.5.5
 django-formtools>=2.0
 sshpubkeys>=2.2.0
@@ -21,3 +21,5 @@ gssapi
 django-rest-swagger
 django-auth-ldap
 ldap3
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
